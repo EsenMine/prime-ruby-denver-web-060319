@@ -7,7 +7,7 @@ def prime?(n)
 end
 =end
 def prime?(num)
-  if num < 1
+  if num < 0
     false
   end
   n = 2

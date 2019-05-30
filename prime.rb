@@ -1,3 +1,4 @@
+require 'pry'
 def prime?(n)
   if n <= 1
     false
@@ -10,4 +11,5 @@ def prime?(n)
       true
     end
   end
+  binding.pry
 end

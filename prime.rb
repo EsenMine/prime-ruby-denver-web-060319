@@ -5,6 +5,7 @@ def prime?(n)
   for i in (2...n)
     if n % i == 0
       false
-  true
+    else
+      true
   end
 end

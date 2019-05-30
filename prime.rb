@@ -3,10 +3,10 @@ def prime?(n)
     false
   end
   for i in (2..n)
-    if n % i == 0 && i != n
-      return false
+    if n % i == 0
+      false
     else
-      return true
+      true
     end
   end
 end

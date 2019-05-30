@@ -1,15 +1,6 @@
-#require 'pry'
 def prime?(n)
-  if n <= 1
-    false
+  (2..(n-1)).each do |i|
+    false if n % i == 0
   end
-  my_array = (2..n).to_a
-  for i in my_array
-    if n % i == 0
-      false
-    else
-      true
-    end
-  end
-  #binding.pry
+  true
 end

@@ -7,6 +7,9 @@ def prime?(n)
 end
 =end
 def prime?(num)
+  if num < 1
+    false    
+  end
   n = 2
   while n < num
     false if num % n == 0

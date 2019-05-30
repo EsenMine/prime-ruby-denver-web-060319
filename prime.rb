@@ -2,7 +2,8 @@ def prime?(n)
   if n <= 1
     false
   end
-  for i in (2..n)
+  my_array = (2..n).to_a
+  for i in my_array
     if n % i == 0
       false
     else

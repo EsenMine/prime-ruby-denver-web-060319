@@ -8,7 +8,7 @@ end
 =end
 def prime?(num)
   if num < 1
-    false    
+    false
   end
   n = 2
   while n < num

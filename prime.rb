@@ -1,4 +1,4 @@
-require_relative ../prime.rb
+require_relative '../prime.rb'
 def prime?(n)
   if n <= 3
     return n > 1

@@ -3,9 +3,9 @@ def prime?(n)
     if n % 1 == 0
       false
     else
-      true      
+      true
     end
-  end  
+  end
 end
 =begin
 def prime?(n)

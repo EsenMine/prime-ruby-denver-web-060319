@@ -4,7 +4,7 @@ def prime?(n)
   end
   true
 end
-=end
+
 
 =begin
 def prime?(num)

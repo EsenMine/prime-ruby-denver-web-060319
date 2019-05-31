@@ -1,11 +1,12 @@
-=begin
+begin
 def prime?(n)
   (2..(n-1)).each do |i|
     false if n % i == 0
   end
   true
 end
-=end
+end
+=begin
 def prime?(num)
   if num < 0
     false
@@ -17,3 +18,4 @@ def prime?(num)
   end
   true
 end
+=end

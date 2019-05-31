@@ -1,11 +1,11 @@
 def prime?(n)
   if n == 0 || n == 1 || n < 0
-    false
+    return false
   end
   (2..(n-1)).each do |i|
-    false if n % i == 0
+    return false if n % i == 0
   end
-  true
+  return true
 end
 
 

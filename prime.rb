@@ -1,9 +1,21 @@
 def prime?(n)
+  for i in (2..(n-1))
+    if n % 1 == 0
+      false
+    else
+      true      
+    end
+  end  
+end
+=begin
+def prime?(n)
   (2..(n-1)).each do |i|
     false if n % i == 0 || n < 0
   end
   true
 end
+=end
+
 =begin
 def prime?(num)
   if num < 0
